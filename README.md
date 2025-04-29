@@ -37,7 +37,7 @@ cd heart-disease-prediction
 ### 2. Load Docker image from `.tar`
 Download the Docker image from the link below and load it:
 
-🔗 **[Download heart-app.tar from Google Drive](https://drive.google.com/your-tar-file-link)**
+🔗 **[Download heart-app.tar from Google Drive](https://drive.google.com/drive/u/3/my-drive)**
 
 ```bash
 docker load -i heart-app.tar
@@ -97,6 +97,18 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home_page.png)
+
+### 📊 Prediction Result
+![Prediction Result](screenshots/prediction_result.png)
+
+### 💬 LLM Explanation
+![LLM Explanation](screenshots/llm_explanation.png)
+
+
 ## 📁 Project Structure
 
 ```
@@ -117,7 +129,7 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 
 Developed by **N. Abhiram Chowdary**  
 B.Tech CSE (AI & ML), SRM Institute of Science & Technology  
-📧 [YourEmail@example.com]
+📧 [abhiramchowdary86@gmail.com]
 
 ---
 
