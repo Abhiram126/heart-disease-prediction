@@ -1,0 +1,16 @@
+#Build and Run:
+docker build -t heart-disease-predictor .
+docker run -p 5000:5000 heart-disease-predictor
+
+
+#publish to dockerHub
+docker tag heart-disease-predictor your-dockerhub-username/heart-disease-predictor
+docker push your-dockerhub-username/heart-disease-predictor
+
+#push to github
+git init
+git add .
+git commit -m "Initial commit with heart disease prediction app"
+git branch -M main
+git remote add origin https://github.com/your-username/heart-disease-ai.git
+git push -u origin main

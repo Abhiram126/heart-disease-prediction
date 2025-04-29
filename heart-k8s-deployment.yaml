@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: heart-diseases-prediction-main-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: heart-diseases-prediction-main
+  template:
+    metadata:
+      labels:
+        app: heart-diseases-prediction-main
+    spec:
+      containers:
+      - name: heart-diseases-prediction-main
+        image: sha256:a1984bfa8db1a2fcb9d3b06e22e7e31269ee0d34550a6cb65e5d5f286abf5ddb
+        ports:
+        - containerPort: 5000
