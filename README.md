@@ -97,16 +97,17 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots!
 
-### 🏠 Home Page
-![Home Page](screenshots/home_page.png.png)
 
-### 📊 Prediction Result
-![Prediction Result](screenshots/prediction_result.png.png)
+###  Home Page
+![home_page png](https://github.com/user-attachments/assets/2ba8da04-882b-4365-a8dc-40868d808b57)
 
-### 💬 LLM Explanation
-![LLM Explanation](screenshots/llm_explanation.png.png)
+### input page
+![prediction_result png](https://github.com/user-attachments/assets/f5849389-5c24-45e0-a8be-8823836fa353)
+
+###  LLM Explanation
+![llm_explanation png](https://github.com/user-attachments/assets/b25bfe50-d915-4e6a-85cf-e7674c4dc97a)
 
 
 ## 📁 Project Structure
@@ -121,7 +122,8 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 ├── Dockerfile
 ├── heart-app.tar            # Docker image (optional)
 └── README.md
-```
+```![llm_explanation png](https://github.com/user-attachments/assets/6ee8dd02-0ee1-4d80-9219-0312e871483a)
+
 
 ---
 
