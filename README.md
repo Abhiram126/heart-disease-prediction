@@ -100,13 +100,13 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home_page.png.png)
+![Home Page](screen shots/home page.png.png)
 
 ### 📊 Prediction Result
-![Prediction Result](screenshots/prediction_result.png.png)
+![Prediction Result](screen shots/prediction result.png.png)
 
 ### 💬 LLM Explanation
-![LLM Explanation](screenshots/llm_explanation.png.png)
+![LLM Explanation](screen shots/llm explanation.png.png)
 
 
 ## 📁 Project Structure
