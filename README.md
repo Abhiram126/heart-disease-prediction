@@ -1,10 +1,10 @@
-# 🫀 Heart Disease Prediction Web Application
+# Heart Disease Prediction Web Application
 
 This project is a web-based machine learning application for predicting the risk of heart disease. It leverages a **Random Forest model**, integrates **Large Language Models (LLMs)** for explanations, and is deployed via **Docker** for portability.
 
 ---
 
-## 📌 Features
+##  Features
 
 - Predict heart disease risk using clinical features
 - Interactive web interface (Python + HTML)
@@ -14,7 +14,7 @@ This project is a web-based machine learning application for predicting the risk
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - Python (Flask + Waitress)
 - HTML/CSS (for frontend)
@@ -26,7 +26,7 @@ This project is a web-based machine learning application for predicting the risk
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -63,7 +63,7 @@ The app uses an LLM (like Google PaLM/Gemini) to explain model predictions. Ensu
 
 ---
 
-## ⚠️ Known Issues
+## ⚠ Known Issues
 
 - **FutureWarning with `pd.read_json`**:
   Fix by wrapping with `StringIO`:
@@ -80,7 +80,7 @@ The app uses an LLM (like Google PaLM/Gemini) to explain model predictions. Ensu
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 Used the UCI Heart Disease dataset (`heart.csv`) with features such as:
 - Age, Sex, Blood Pressure, Cholesterol, etc.
@@ -89,7 +89,7 @@ Also includes synthetic records generated via GPT-2 (`generate_synthetic_data.py
 
 ---
 
-## 🧪 Model
+##  Model
 
 Trained a **Random Forest Classifier** and saved using `joblib`:
 - Model file: `random_forest_model.pkl`
@@ -112,7 +112,7 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 
 ## 📁 Project Structure
 
-```
+
 ├── app.py                   # Main application
 ├── templates/               # HTML templates
 ├── static/                  # CSS/JS assets
@@ -122,12 +122,9 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 ├── Dockerfile
 ├── heart-app.tar            # Docker image (optional)
 └── README.md
-```![llm_explanation png](https://github.com/user-attachments/assets/6ee8dd02-0ee1-4d80-9219-0312e871483a)
 
 
----
-
-## 📬 Contact
+## Contact
 
 Developed by **N. Abhiram Chowdary**  
 B.Tech CSE (AI & ML), SRM Institute of Science & Technology  
