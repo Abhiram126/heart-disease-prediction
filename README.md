@@ -122,15 +122,15 @@ Trained a **Random Forest Classifier** and saved using `joblib`:
 ## 📁 Project Structure
 
 
--├── app.py                   # Main application
--├── templates/               # HTML templates
--├── static/                  # CSS/JS assets
--├── heart.csv                # Dataset
--├── generate_synthetic_data.py
--├── random_forest_model.pkl  # Trained model
--├── Dockerfile
--├── heart-app.tar            # Docker image (optional)
--└── README.md
+├── app.py                   # Main application
+├── templates/               # HTML templates
+├── static/                  # CSS/JS assets
+├── heart.csv                # Dataset
+├── generate_synthetic_data.py
+├── random_forest_model.pkl  # Trained model
+├── Dockerfile
+├── heart-app.tar            # Docker image (optional)
+└── README.md
 
 
 ## Contact
