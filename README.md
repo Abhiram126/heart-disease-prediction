@@ -64,12 +64,12 @@ The app uses an LLM (like Google PaLM/Gemini) to explain model predictions. Ensu
 ---
 ## Modules used 
 
-app.py
-train_model.py
-DiseasePrediction.py
-generate_explanation.py
-cmds
-heart-k8s-deployment.yaml
+- app.py
+- train_model.py
+- DiseasePrediction.py
+- generate_explanation.py
+- cmds
+- heart-k8s-deployment.yaml
 
 
 ## Known Issues
