@@ -62,8 +62,17 @@ The app uses an LLM (like Google PaLM/Gemini) to explain model predictions. Ensu
 - Proper DNS resolution (consider `--dns=8.8.8.8` if needed)
 
 ---
+## Modules used 
 
-## ⚠ Known Issues
+app.py
+train_model.py
+DiseasePrediction.py
+generate_explanation.py
+cmds
+heart-k8s-deployment.yaml
+
+
+## Known Issues
 
 - **FutureWarning with `pd.read_json`**:
   Fix by wrapping with `StringIO`:
